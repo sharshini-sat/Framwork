@@ -17,12 +17,12 @@
       <![CDATA[Test is about to end]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-07-24T15:30:57 IST" name="Default suite" finished-at="2020-07-24T15:31:16 IST" duration-ms="18388">
+  <suite started-at="2020-07-26T17:41:43 IST" name="Default suite" finished-at="2020-07-26T17:42:01 IST" duration-ms="17818">
     <groups>
     </groups>
-    <test started-at="2020-07-24T15:30:57 IST" name="Default test" finished-at="2020-07-24T15:31:16 IST" duration-ms="18388">
+    <test started-at="2020-07-26T17:41:43 IST" name="Default test" finished-at="2020-07-26T17:42:01 IST" duration-ms="17818">
       <class name="com.myprojec.testcases.LoginTestQualityPoint">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-24T15:30:56 IST" name="setUpSuite" finished-at="2020-07-24T15:30:57 IST" duration-ms="1131" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-26T17:41:42 IST" name="setUpSuite" finished-at="2020-07-26T17:41:43 IST" duration-ms="996" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting up report and Test is getting ready]]>
@@ -32,7 +32,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-24T15:30:57 IST" name="setup" finished-at="2020-07-24T15:31:07 IST" duration-ms="9564" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-26T17:41:43 IST" name="setup" finished-at="2020-07-26T17:41:52 IST" duration-ms="8865" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Trying to start Browser and Getting application ready]]>
@@ -42,11 +42,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginApplication()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-24T15:31:07 IST" name="LoginApplication" finished-at="2020-07-24T15:31:14 IST" duration-ms="7051" status="PASS">
+        <test-method signature="LoginApplication()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-26T17:41:52 IST" name="LoginApplication" finished-at="2020-07-26T17:42:00 IST" duration-ms="7213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginApplication -->
-        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-24T15:31:14 IST" name="teardownmethod" finished-at="2020-07-24T15:31:15 IST" duration-ms="986" status="PASS">
+        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-26T17:42:00 IST" name="teardownmethod" finished-at="2020-07-26T17:42:00 IST" duration-ms="949" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- teardownmethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-24T15:31:15 IST" name="tearDown" finished-at="2020-07-24T15:31:16 IST" duration-ms="723" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-26T17:42:00 IST" name="tearDown" finished-at="2020-07-26T17:42:01 IST" duration-ms="729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
