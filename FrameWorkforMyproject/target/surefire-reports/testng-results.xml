@@ -17,12 +17,12 @@
       <![CDATA[Test is about to end]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-07-26T18:10:54 IST" name="Suite" finished-at="2020-07-26T18:11:12 IST" duration-ms="17487">
+  <suite started-at="2020-07-28T13:45:12 IST" name="Suite" finished-at="2020-07-28T13:45:34 IST" duration-ms="21395">
     <groups>
     </groups>
-    <test started-at="2020-07-26T18:10:54 IST" name="Test" finished-at="2020-07-26T18:11:12 IST" duration-ms="17487">
+    <test started-at="2020-07-28T13:45:12 IST" name="Test" finished-at="2020-07-28T13:45:34 IST" duration-ms="21395">
       <class name="com.myprojec.testcases.LoginTestQualityPoint">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@15761df8]" started-at="2020-07-26T18:10:53 IST" name="setUpSuite" finished-at="2020-07-26T18:10:54 IST" duration-ms="1366" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@45dd4eda]" started-at="2020-07-28T13:45:11 IST" name="setUpSuite" finished-at="2020-07-28T13:45:12 IST" duration-ms="1013" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting up report and Test is getting ready]]>
@@ -32,7 +32,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@15761df8]" started-at="2020-07-26T18:10:55 IST" name="setup" finished-at="2020-07-26T18:11:04 IST" duration-ms="9277" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@45dd4eda]" started-at="2020-07-28T13:45:12 IST" name="setup" finished-at="2020-07-28T13:45:23 IST" duration-ms="10805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://qualitypointtech.net/timesheetdemo/index.php?logout=true#logoutstatus]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[Trying to start Browser and Getting application ready]]>
@@ -42,15 +54,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginApplication()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@15761df8]" started-at="2020-07-26T18:11:04 IST" name="LoginApplication" finished-at="2020-07-26T18:11:10 IST" duration-ms="6453" status="PASS">
+        <test-method signature="LoginApplication()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@45dd4eda]" started-at="2020-07-28T13:45:23 IST" name="LoginApplication" finished-at="2020-07-28T13:45:30 IST" duration-ms="6747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginApplication -->
-        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@15761df8]" started-at="2020-07-26T18:11:10 IST" name="teardownmethod" finished-at="2020-07-26T18:11:11 IST" duration-ms="868" status="PASS">
+        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@45dd4eda]" started-at="2020-07-28T13:45:30 IST" name="teardownmethod" finished-at="2020-07-28T13:45:31 IST" duration-ms="652" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginApplication status=SUCCESS method=LoginTestQualityPoint.LoginApplication()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@15761df8] output={null}]]]>
+                <![CDATA[[TestResult name=LoginApplication status=SUCCESS method=LoginTestQualityPoint.LoginApplication()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@45dd4eda] output={null}]]]>
               </value>
             </param>
           </params>
@@ -60,7 +72,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- teardownmethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@15761df8]" started-at="2020-07-26T18:11:11 IST" name="tearDown" finished-at="2020-07-26T18:11:12 IST" duration-ms="814" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@45dd4eda]" started-at="2020-07-28T13:45:31 IST" name="tearDown" finished-at="2020-07-28T13:45:34 IST" duration-ms="3149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

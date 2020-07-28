@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
     <line>
       <![CDATA[Setting up report and Test is getting ready]]>
@@ -7,22 +7,13 @@
     <line>
       <![CDATA[Setting Done-Test can be started]]>
     </line>
-    <line>
-      <![CDATA[Trying to start Browser and Getting application ready]]>
-    </line>
-    <line>
-      <![CDATA[Browser and Application is up and running]]>
-    </line>
-    <line>
-      <![CDATA[Test is about to end]]>
-    </line>
   </reporter-output>
-  <suite started-at="2020-07-26T17:41:43 IST" name="Default suite" finished-at="2020-07-26T17:42:01 IST" duration-ms="17818">
+  <suite started-at="2020-07-28T13:37:35 IST" name="Default suite" finished-at="2020-07-28T13:37:35 IST" duration-ms="105">
     <groups>
     </groups>
-    <test started-at="2020-07-26T17:41:43 IST" name="Default test" finished-at="2020-07-26T17:42:01 IST" duration-ms="17818">
+    <test started-at="2020-07-28T13:37:35 IST" name="Default test" finished-at="2020-07-28T13:37:35 IST" duration-ms="105">
       <class name="com.myprojec.testcases.LoginTestQualityPoint">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-26T17:41:42 IST" name="setUpSuite" finished-at="2020-07-26T17:41:43 IST" duration-ms="996" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@7880cdf3]" started-at="2020-07-28T13:37:34 IST" name="setUpSuite" finished-at="2020-07-28T13:37:35 IST" duration-ms="1109" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting up report and Test is getting ready]]>
@@ -32,35 +23,91 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-26T17:41:43 IST" name="setup" finished-at="2020-07-26T17:41:52 IST" duration-ms="8865" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@7880cdf3]" started-at="2020-07-28T13:37:35 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1595923655318" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Sathish\AppData\Local\Temp\testng-eclipse--2073639750\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Sathish\AppData\Local\Temp\testng-eclipse--2073639750\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[Trying to start Browser and Getting application ready]]>
-            </line>
-            <line>
-              <![CDATA[Browser and Application is up and running]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginApplication()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-26T17:41:52 IST" name="LoginApplication" finished-at="2020-07-26T17:42:00 IST" duration-ms="7213" status="PASS">
+        <test-method signature="LoginApplication()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@7880cdf3]" started-at="2020-07-28T13:37:35 IST" name="LoginApplication" finished-at="2020-07-28T13:37:35 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Sathish\AppData\Local\Temp\testng-eclipse--2073639750\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Sathish\AppData\Local\Temp\testng-eclipse--2073639750\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginApplication -->
-        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-26T17:42:00 IST" name="teardownmethod" finished-at="2020-07-26T17:42:00 IST" duration-ms="949" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginApplication status=SUCCESS method=LoginTestQualityPoint.LoginApplication()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@7880cdf3]" started-at="2020-07-28T13:37:35 IST" name="teardownmethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1595923655384" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[Test is about to end]]>
-            </line>
           </reporter-output>
         </test-method> <!-- teardownmethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@2f7c2f4f]" started-at="2020-07-26T17:42:00 IST" name="tearDown" finished-at="2020-07-26T17:42:01 IST" duration-ms="729" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myprojec.testcases.LoginTestQualityPoint@7880cdf3]" started-at="2020-07-28T13:37:35 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1595923655396" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

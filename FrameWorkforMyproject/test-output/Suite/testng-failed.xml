@@ -3,15 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.myproject.testcases.LoginTestQualityPoint">
+      <class name="com.myprojec.testcases.LoginTestQualityPoint">
         <methods>
-          <include name="LoginApplication"/>
-          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="LoginApplication"/>
           <include name="teardownmethod"/>
           <include name="setUpSuite"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.myproject.testcases.LoginTestQualityPoint -->
+      </class> <!-- com.myprojec.testcases.LoginTestQualityPoint -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

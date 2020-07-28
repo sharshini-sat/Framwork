@@ -86,11 +86,15 @@
           <configuration>
             <testSourceDirectory>${project.build.testSourceDirectory}</testSourceDirectory>                      
             <suiteXmlFiles>
-                <suiteXmlFile>testng.xml</suiteXmlFile>
+                <suiteXmlFile>${xmlFiles}</suiteXmlFile>
             </suiteXmlFiles> 
             <includes>
             <include>**.java</include>
             </includes>
+            <systemPropertyVariables>
+            <executionBrowser>${Browser}</executionBrowser>
+            <appurl>${urlToBeTested}</appurl>
+            </systemPropertyVariables>
          </configuration>
         </plugin>
         <plugin>
