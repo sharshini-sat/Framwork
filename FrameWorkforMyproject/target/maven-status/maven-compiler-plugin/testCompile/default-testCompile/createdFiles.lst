@@ -1,7 +1,0 @@
-com\myprojec\pages\LoginPage.class
-com\myprojec\pages\BaseClass.class
-com\myprojec\utility\ConfigDataProvider.class
-com\myprojec\utility\BrowserFactory.class
-com\myprojec\testcases\LoginTestQualityPoint.class
-com\myprojec\utility\ExcelDataProvider.class
-com\myprojec\utility\Helper.class
