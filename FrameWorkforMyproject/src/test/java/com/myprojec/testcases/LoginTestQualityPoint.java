@@ -29,7 +29,7 @@ public class LoginTestQualityPoint extends BaseClass {
 		logger.info("Step1: Entering UserName and Password");
 		myloginpage.loginintoapp(excel.getStringData("LoginForAdmin", 0, 0),excel.getStringData("LoginForAdmin", 0, 1));
 		//Helper.capturescreenshot(driver);
-		logger.pass("Login success");
+		logger.pass("Login is success");
 		
 		
 	}
